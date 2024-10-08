@@ -1,0 +1,81 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+  }
+  
+  .menu-container {
+    background-color: #111;
+    color: white;
+    padding: 20px;
+    width: 100vw;
+    margin: 0 auto;
+    border-radius: 10px;
+  }
+
+  .container-info {
+    width: 70%;
+  }
+
+  .container-menu {
+    display: flex;
+  }
+  
+    .menu-img {
+        width: 40%;
+    }
+
+  .menu-title {
+    text-align: center;
+    font-size: 2em;
+    margin-bottom: 20px; 
+  }
+  
+  .menu-category {
+    font-size: 1.5em;
+    margin: 10px 0;
+    color: #ff9900;
+  }
+  
+  .menu-item {
+    display: flex;
+    justify-content: space-between;
+    margin: 10px 0;
+  }
+  
+  .burger-name {
+    font-weight: bold;
+  }
+  
+  .burger-description {
+    font-size: 0.9em;
+    color: #aaa;
+  }
+  
+  .burger-price {
+    color: #ff9900;
+    font-weight: bold;
+  }
+  
+  .menu-footer {
+    text-align: center;
+    margin-top: 30px;
+    font-size: 1.2em;
+    color: #ff9900;
+  }
+  
+  .menu-footer p {
+    margin: 5px 0;
+  }
+  
+
+  @media (max-width: 425px) {
+    .container-menu {
+        flex-direction: column;
+    }
+
+}
+img {
+    width: 50%;
+}
+
